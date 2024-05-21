@@ -346,8 +346,16 @@ void Usage(std::string arg)
     std::cerr << arg << " [-p path1,path2,...] [-x arg] [-y arg] " << std::endl;
     std::cout<< " with the options:"<<std::endl;
     std::cout<<"-p: list of paths to the folders with the MC raw files"<<std::endl;
+    std::cout<<"-a: list of labels for each MC file"<<std::endl;
+    std::cout<<"-X: comma seperated list of range for x-axis"<<std::endl;
+    std::cout<<"-Y: comma seperated list of range for Y-axis"<<std::endl;
+    std::cout<<"-z: range of z to select "<<std::endl;
+    std::cout<<"-f: path to a file containing extra points to plot"<<std::endl;
+    std::cout<<"-l: bool to label the string  / SIS x-y positions"<<std::endl;
+    std::cout<<"-L: bool to label the bottom of each HPGe detector"<<std::endl;
     std::cout<<"-x: variable name to plot on x-axis "<<std::endl;
     std::cout<<"-y: variable name to plot on y-axis "<<std::endl;
+    std::cout<<"-s: int of a string to select to plot primaries from"<<std::endl;
     std::cout<<"-o: output name "<<std::endl;
 
 }   
